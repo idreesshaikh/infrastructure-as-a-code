@@ -9,7 +9,7 @@ terraform {
   cloud {
     organization = "school-cloud-project"
     workspaces {
-      name = "github-action"
+      name = "github-actions"
     }
   }
   required_version = ">= 0.14.9"
